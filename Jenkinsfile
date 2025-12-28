@@ -4,7 +4,7 @@ pipeline {
     environment {
         CONTAINER_NAME = "nestjs-app"
         IMAGE_NAME = "nestjs-image"
-        EMAIL = "smarthmutagekar23work@gmail.com"
+        EMAIL = "samarthmutagekar23@gmail.com"
         PORT = "3000"
     }
 
