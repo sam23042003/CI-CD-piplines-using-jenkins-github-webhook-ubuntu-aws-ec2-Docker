@@ -42,7 +42,7 @@ pipeline {
             steps {
                 emailext(
                     subject: "NestJS App Deployed Successfully on EC2!",
-                    body: "Your Nest JS app is Deployed! http://3.83.215.169:3000:${PORT}/",
+                    body: "Your Nest JS app is Deployed! http://3.83.215.169:8080:${PORT}/",
                     to: "${EMAIL}"
                 )
             }
